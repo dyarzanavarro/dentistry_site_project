@@ -1,0 +1,144 @@
+
+@import url("particles-font.css");
+@import url("particles-grid.css");
+
+body{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#333;
+    margin:0;
+    padding:0;
+}
+a {
+    color: #4C6A92;
+    text-decoration:none;
+}
+a:visited {color:#4C6A92;}
+a:hover {color: #D8AE47;}
+a:active { color:#4C6A92;}
+
+.container{
+    /*	border:1px solid #000;	*/
+    padding:20px;
+}
+body>header,
+body>footer {
+    background:#4C6A92;
+    color:#fff;
+}
+body>header h1{
+    margin:0;
+}
+body>header a,
+body>header a:visited{
+    color:#fff;
+}
+body>footer a,
+body>footer a:visited{
+    color:#92B6D5;
+}
+/* ----------menubutton--------------*/
+.menubutton {
+    font-size:2.2em;
+    text-align:right;
+    padding:10px 20px;
+    position:absolute;
+    top:20px;
+    right: 20px;
+}
+.menubutton a{ color:#92B6D5; }
+.menubutton .fa-bars.active{ display: none; }
+.fa-times{ display: none; }
+.fa-times.active{ display: inline-block; }
+
+/* -------------- navigavtion------------- 	*/
+nav {
+    background:#92B6D5;
+}
+nav ul{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+nav a,
+nav a:visited{
+    background:#92B6D5;
+    display:block;
+    color:#4C6A92;
+    line-height:56px;
+    text-transform: uppercase;
+    border-bottom:1px dotted #4C6A92;
+    font-size:1.3rem;
+    padding:0 20px;
+}
+nav a:hover,
+nav a.selected {
+    background:#92B6D5;
+    background: rgba(255,255,255, .2);
+    color:#4C6A92;
+}
+nav a:hover:after {
+    color: #4C6A92;
+    position:absolute;
+    right: 20px;
+    font-family: 'FontAwesome';
+    content: "\f105";
+    font-size:2rem;
+}
+/* ----------------- content--------------------- */
+article{
+    border-bottom:1px solid #4C6A92;
+}
+footer span{
+    margin-right: 20px;
+    display: block;
+}
+p{
+    margin: 0 0 25px;
+}
+.pager{
+    text-align:right;
+    margin:20px 0;
+}
+.pager a{
+    display: inline-block;
+    border:1px solid #4C6A92;
+    padding:5px 10px;
+    margin:0 2px;
+}
+.pager a.selected{
+    color:#fff;
+    background: #4C6A92;
+}
+.iconbox{
+    border:1px solid #4C6A92;
+}
+
+/* -----------media queries --------------------------- */
+@media screen and (min-width: 640px) {
+    .menubutton {
+        display: none;
+    }
+    nav ul:after {
+        height: 0;
+        content: " ";
+        display: block;
+        clear: left;
+    }
+
+    nav li {
+        width: calc(100%/3);
+        float: left;
+        text-align:center;
+    }
+    nav a {
+        border-bottom: none;
+    }
+    nav a:hover:after {
+        content: " ";
+    }
+    footer span{
+        display: inline-block;
+    }
+}
