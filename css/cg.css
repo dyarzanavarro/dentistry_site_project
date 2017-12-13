@@ -23,7 +23,7 @@
 }
 .circle-wrapper{
     position: relative;
-    left: 39%;
+    left: 37%;
     top: -40px;
 }
 .full-circle {
@@ -41,5 +41,19 @@
    .circle-plus{
     font-size: 1.7em;    
     color: #fff;
-        
    }
+
+
+   /*
+    Modals
+   */
+   .modal-text{
+       font-size: 0.9em;
+   }
+   .modal-col-left{
+        border-left: rgba(255, 0, 0, 0.7) solid 15px;
+   }
+   .modal-col-right{
+    border-right: rgba(255, 0, 0, 0.7) solid 15px;
+    
+       }
