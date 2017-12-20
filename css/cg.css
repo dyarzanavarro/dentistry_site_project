@@ -52,6 +52,10 @@
      margin-bottom: 15px;
  }
  
+ .card-img-top {
+     min-height: 115px;
+ }
+ 
  .card-body {
      border-bottom: 20px solid rgba(255, 0, 0, 0.7);
      text-align: center;
