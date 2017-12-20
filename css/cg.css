@@ -9,12 +9,39 @@
  .small-caps {
      font-variant: small-caps;
  }
+ 
+ .pointer {
+     cursor: pointer;
+ }
+ 
+ .no-p {
+     padding-left: 0;
+     padding-right: 0;
+ }
+ /*
+    header
+ */
+ 
+ #logo {
+     width: 105px;
+     height: 105px;
+ }
  /*
     portrait
 */
  
  .portrait-row {
      border-bottom: 20px solid rgba(255, 0, 0, 0.7);
+ }
+ 
+ @media screen and (min-width:319px) and (max-width: 1000px) {
+     .portrait-img-column {
+         display: flex;
+         flex: none;
+         flex-wrap: wrap;
+         width: 100%;
+         max-width: 100%;
+     }
  }
  /*
     services
