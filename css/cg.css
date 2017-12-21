@@ -22,6 +22,17 @@
     header
  */
  
+ .nav-logo {
+     width: 82px;
+     height: 60px;
+ }
+ 
+ .nav-anchor {
+     max-width: 616px;
+     width: 79%;
+     display: flex;
+ }
+ 
  #logo {
      width: 105px;
      height: 105px;
@@ -42,6 +53,25 @@
          width: 100%;
          max-width: 100%;
      }
+ }
+ /*
+    Contact buttons
+ */
+ 
+ .contact-button-wrapper {
+     width: 65px;
+     height: 110px;
+     right: 0;
+     top: 36%;
+     z-index: 100;
+ }
+ 
+ .contact-button {
+     width: 50px;
+     height: 50px;
+     margin-bottom: 5px;
+     border: 1px solid rgba(255, 0, 0, 0.7);
+     background-color: rgba(255, 0, 0, 0.7);
  }
  /*
     services
