@@ -50,8 +50,8 @@
          display: flex;
          flex: none;
          flex-wrap: wrap;
-         width: 100%;
-         max-width: 100%;
+         width: 103%;
+         max-width: 103%;
      }
  }
  /*
@@ -59,7 +59,7 @@
  */
  
  .contact-button-wrapper {
-     width: 65px;
+     width: 71px;
      height: 110px;
      right: 0;
      top: 36%;
