@@ -73,6 +73,10 @@
      border: 1px solid rgba(255, 0, 0, 0.7);
      background-color: rgba(255, 0, 0, 0.7);
  }
+ 
+ .contact-button i {
+     margin-top: 10px;
+ }
  /*
     services
 */

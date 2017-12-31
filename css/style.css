@@ -25,3 +25,12 @@ header {
 section {
   padding: 150px 0;
 }
+
+a img {
+  height: auto;
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
