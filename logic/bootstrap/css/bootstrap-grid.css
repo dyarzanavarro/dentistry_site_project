@@ -1000,7 +1000,7 @@ html {
 }
 
 .justify-content-around {
-  -ms-flex-pack: distribute !important;
+  -ms-flex-pack: inherit !important;
       justify-content: space-around !important;
 }
 
