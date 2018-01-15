@@ -46,7 +46,13 @@
 
     <!-- Portrait & Logo -->
     <section class="section-portrait">
-        <img src="imgs/profile.jpg" class="img-fluid mx-auto d-block portrait portrait-row" alt="portrait" />
+        <picture>
+            <source media="(min-width: 992px)" srcset="imgs/profile_lg.jpg">
+            <source media="(min-width: 768px)" srcset="imgs/profile_md.jpg">
+            <source media="(min-width: 576px)" srcset="imgs/profile_sm.jpg">
+            <source media="(min-width: 360px)" srcset="imgs/profile_xs.jpg">
+            <img src="imgs/profile_sm.jpg" alt="portrait" class="img-fluid mx-auto d-block portrait portrait-row" />
+        </picture>
 
         <div class="logo" id="logo">
             <img src="imgs/dentisana%20logo-01.png" class="img-fluid mx-auto d-block" alt="logo" />
@@ -80,15 +86,15 @@
                     <div class="row team-row">
                         <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto">
                             <img class="rounded-circle team-member-mugshot" src="http://placehold.it/700x400" alt="Team member">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p class="card-text text-center">Dr.med. Frankenstein</p>
                         </div>
                         <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto">
                             <img class="rounded-circle team-member-mugshot" src="http://placehold.it/700x400" alt="Team member">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p class="card-text text-center">Dr.med. Muster</p>
                         </div>
                         <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto">
                             <img class="rounded-circle team-member-mugshot" src="http://placehold.it/700x400" alt="Team member">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p class="card-text text-center">Freddy Krueger</p>
                         </div>
                     </div>
                 </div>
@@ -297,7 +303,7 @@
 
     <section id="contact" class="section-google-maps bg-light">
         <div class="container-fluid">
-            <div class="row bg-light">
+            <div class="row bg-light contact-row">
                 <div class="col-lg-8 mx-auto col-md-8 offset-sm-3 text-center">
                     <h2 class="m-0 text-center text-antrazit small-caps">Standort</h2>
                     <p class="contact">Weite Gasse 37</p>
@@ -305,8 +311,9 @@
                 </div>
                 <div class="col-lg-8 mx-auto col-md-8 offset-sm-3 text-center">
                     <h2 class="m-0 text-center text-antrazit small-caps">Kontakt</h2>
-                    <a class="contact"> Telefon: +41 56 210 33 33</s>
-                    <a class="contact"> Mobile: +41 79 781 33 33</a>
+                    <a href="tel:+415652103333" class="contact">Telefon: +41 56 210 33 33</s>
+                    <a href="tel:+41797813333" class="contact">Mobile: +41 79 781 33 33</a>
+                    <a href="mailto:info@dentisana.ch" class="contact">info@dentisana.ch</a>
                 </div>
                 <div class="col-lg-8 mx-auto col-md-8 offset-sm-3 text-center">
                     <h2 class="m-0 text-center text-antrazit small-caps">Öffnungszeiten</h2>

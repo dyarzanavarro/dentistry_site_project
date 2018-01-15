@@ -208,20 +208,27 @@ Modals
             padding: 15px 15px 0px 15px;
         }
         /*
-Maps  
+Contact & Map  
 */
         
         #contact h2 {
-            padding: 25px 0px 15px 0px;
+            padding: 25px 0px 5px 0px;
         }
         
         #contact p.contact {
-            margin-bottom: 5px;
+            margin-bottom: 3px;
+            color: #000;
         }
         
         #contact a.contact {
             display: block;
-            margin-bottom: 5px;
+            margin-bottom: 3px;
+            color: #000;
+        }
+        
+        .contact-row {
+            border-bottom: 20px solid rgba(255, 0, 0, 0.7);
+            padding-bottom: 30px;
         }
         
         #map-img {
