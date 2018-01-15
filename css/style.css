@@ -323,6 +323,11 @@ BeamMeUp button
             .circle-wrapper {
                 left: 34%;
             }
+            nav {
+                max-width: 1050px;
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
         /* Extra large devices (large desktops, 1200px and up) */
         
