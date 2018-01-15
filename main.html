@@ -14,23 +14,6 @@
 </head>
 
 <body id="page-top">
-    <!-- Navigation -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg bg-white fixed-top" id="mainNav">
-                    <div class="container">
-                        <img src="imgs/dentisana%20(1).png" class="nav-logo" />
-                        <div class="nav-anchor">
-                            <a class="nav-link js-scroll-trigger text-muted" href="#about">Über Uns</a>
-                            <a class="nav-link js-scroll-trigger text-muted" href="#services">Leistungen</a>
-                            <a class="nav-link js-scroll-trigger text-muted" href="#contact">Kontakt</a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
 
     <div class="contact-button-wrapper position-fixed">
         <div class="contact-button text-center">
@@ -45,95 +28,84 @@
         </div>
     </div>
 
-
-
-
-
-
-
-    <div class="container-fluid no-p">
-        <div class="row justify-content-md-center">
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 portrait-img-column">
-                <img src="imgs/profile.jpg" alt="portrait" class="img-fluid portrait-row" />
+    <!-- Navigation -->
+    <div class="nav-wrapper">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+                <a href="#page-top" class="js-scroll-trigger text-muted">
+                    <img src="imgs/dentisana%20(1).png" class="nav-logo" />
+                </a>
+                <div class="nav-anchor float-right">
+                    <a class="nav-link js-scroll-trigger text-muted" href="#about">Über Uns</a>
+                    <a class="nav-link js-scroll-trigger text-muted" href="#services">Leistungen</a>
+                    <a class="nav-link js-scroll-trigger text-muted" href="#contact">Kontakt</a>
+                </div>
             </div>
-        </div>
+        </nav>
     </div>
 
+    <!-- Portrait & Logo -->
+    <section class="section-portrait">
+        <img src="imgs/profile.jpg" class="img-fluid mx-auto d-block portrait portrait-row" alt="portrait" />
 
-
-
-
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <img src="imgs/dentisana%20logo-01.png" alt="logo" class="img-fluid mx-auto d-block" />
-            </div>
+        <div class="logo" id="logo">
+            <img src="imgs/dentisana%20logo-01.png" class="img-fluid mx-auto d-block" alt="logo" />
         </div>
-    </div>
+    </section>
 
+    <!-- About -->
     <section id="about">
         <div class="container-fluid">
             <div class="row bg-light">
                 <div class="col-lg-8 mx-auto">
-                    <h2>Über uns</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    </p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                    </ul>
+                    <div class="h h-about-us">
+                        <h2 class="m-0 py-5 text-center text-antrazit small-caps">Über uns</h2>
+                    </div>
+                    <div class="p">
+                        <p class="lead">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        </p>
+                    </div>
+                    <div class="col-9 col-sm-6 col-md-5 mx-auto text-center about-us-list">
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                        </ul>
+                    </div>
+                    <div class="h h-team">
+                        <h2 class="m-0 py-5 text-center text-antrazit small-caps"> Unser Team</h2>
+                    </div>
+                    <div class="row team-row">
+                        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto">
+                            <img class="rounded-circle team-member-mugshot" src="http://placehold.it/700x400" alt="Team member">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto">
+                            <img class="rounded-circle team-member-mugshot" src="http://placehold.it/700x400" alt="Team member">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto">
+                            <img class="rounded-circle team-member-mugshot" src="http://placehold.it/700x400" alt="Team member">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <h2 align="center" style="margin-bottom: 20px"> Unser Team</h2>
-            <div class="container">
-                <!-- Three columns of text below the carousel -->
-                <div class="row">
-                    <!--One Profile Card-->
-                    <div class="col-lg-3 col-md-4 col-sm-4 " align="center" style="max-width: 300px;">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h3 align="center">Heading</h3>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    </div>
-                    <!-- /.col-lg-4 -->
-                    <div class="col-lg-3 col-md-4 col-sm-4" align="center" style="max-width: 300px;">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h3 align="center">Heading</h3>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    </div>
-                    <!-- /.col-lg-4 -->
-                    <div class="col-lg-3 col-md-4 col-sm-4" align="center" style="max-width: 300px;">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h3 align="center">Heading</h3>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    </div>
-                    <!-- /.col-lg-4 -->
-                    <div class="col-lg-3 col-md-4 col-sm-4" align="center" style="max-width: 300px;">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h3 align="center">Heading</h3>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    </div>
-                    <!-- /.col-lg-4 -->
-                </div>
-                <!-- /.row -->
-            </div>
+        </div>
     </section>
 
-
+    <!-- Services -->
     <section id="services" class="py-4">
         <div class="container">
             <div>
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="m-0 py-5 text-center text-gray small-caps">
+                    <h2 class="m-0 py-5 text-center text-antrazit small-caps">
                         Unsere Leistungen
                     </h2>
                     <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="card h-95 pointer" data-toggle="modal" data-target="#pop-up-1">
                                 <img class="card-img-top" src="http://placehold.it/700x400" alt="">
                                 <div class="card-body bg-light">
@@ -147,7 +119,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="card h-95 pointer" data-toggle="modal" data-target="#pop-up-2">
                                 <img class="card-img-top" src="http://placehold.it/700x400" alt="">
                                 <div class="card-body bg-light">
@@ -160,7 +132,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="card h-95 pointer" data-toggle="modal" data-target="#pop-up-3">
                                 <img class="card-img-top" src="http://placehold.it/700x400" alt="">
                                 <div class="card-body bg-light">
@@ -174,7 +146,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="card h-95 pointer" data-toggle="modal" data-target="#pop-up-4">
                                 <img class="card-img-top" src="http://placehold.it/700x400" alt="">
                                 <div class="card-body bg-light">
@@ -193,13 +165,14 @@
             </div>
         </div>
 
+
         <div class="modal fade" id="pop-up-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body modal-body-custom bg-light">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                         <div class="container">
                             <h5 class="modal-title m-0 py-3 text-center text-gray small-caps" id="exampleModalLongTitle">Pop up 1</h5>
                             <div class="row">
@@ -207,13 +180,13 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 modal-col-right">
-                                    <p class="modal-text text-right">
+                                    <p class="modal-text text-justify">
                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
                                         sanctus est Lorem ipsum dolor sit amet.
                                     </p>
                                 </div>
                                 <div class="col-6 modal-col-left">
-                                    <p class="modal-text text-left">
+                                    <p class="modal-text text-justify">
                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
                                         sanctus est Lorem ipsum dolor sit amet.
                                     </p>
@@ -230,8 +203,8 @@
                 <div class="modal-content">
                     <div class="modal-body modal-body-custom bg-light">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                         <div class="container">
                             <h5 class="modal-title m-0 py-3 text-center text-gray small-caps" id="exampleModalLongTitle2">Pop up 2</h5>
                             <div class="row">
@@ -239,13 +212,13 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 modal-col-right">
-                                    <p class="modal-text text-right">
+                                    <p class="modal-text text-justify">
                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
                                         sanctus est Lorem ipsum dolor sit amet.
                                     </p>
                                 </div>
                                 <div class="col-6 modal-col-left">
-                                    <p class="modal-text text-left">
+                                    <p class="modal-text text-justify">
                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
                                         sanctus est Lorem ipsum dolor sit amet.
                                     </p>
@@ -262,8 +235,8 @@
                 <div class="modal-content">
                     <div class="modal-body modal-body-custom bg-light">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                         <div class="container">
                             <h5 class="modal-title m-0 py-3 text-center text-gray small-caps" id="exampleModalLongTitle3">Pop up 3</h5>
                             <div class="row">
@@ -271,13 +244,13 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 modal-col-right">
-                                    <p class="modal-text text-right">
+                                    <p class="modal-text text-justify">
                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
                                         sanctus est Lorem ipsum dolor sit amet.
                                     </p>
                                 </div>
                                 <div class="col-6 modal-col-left">
-                                    <p class="modal-text text-left">
+                                    <p class="modal-text text-justify">
                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
                                         sanctus est Lorem ipsum dolor sit amet.
                                     </p>
@@ -294,8 +267,8 @@
                 <div class="modal-content">
                     <div class="modal-body modal-body-custom bg-light">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                         <div class="container">
                             <h5 class="modal-title m-0 py-3 text-center text-gray small-caps" id="exampleModalLongTitle4">Pop up 4</h5>
                             <div class="row">
@@ -303,13 +276,13 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 modal-col-right">
-                                    <p class="modal-text text-right">
+                                    <p class="modal-text text-justify">
                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
                                         sanctus est Lorem ipsum dolor sit amet.
                                     </p>
                                 </div>
                                 <div class="col-6 modal-col-left">
-                                    <p class="modal-text text-left">
+                                    <p class="modal-text text-justify">
                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
                                         sanctus est Lorem ipsum dolor sit amet.
                                     </p>
@@ -322,36 +295,45 @@
         </div>
     </section>
 
-
-    <section id="contact" class="section-no-pdg-bottom bg-light">
-
-        <div class="container">
-            <div class="row portrait-row">
-
-                <div class="col-lg-8 mx-auto">
-                    <h2>Kontakt</h2>
-                    <p class="contact">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+    <section id="contact" class="section-google-maps bg-light">
+        <div class="container-fluid">
+            <div class="row bg-light">
+                <div class="col-lg-8 mx-auto col-md-8 offset-sm-3 text-center">
+                    <h2 class="m-0 text-center text-antrazit small-caps">Standort</h2>
+                    <p class="contact">Weite Gasse 37</p>
+                    <p class="contact">CH-5400 Baden</p>
+                </div>
+                <div class="col-lg-8 mx-auto col-md-8 offset-sm-3 text-center">
+                    <h2 class="m-0 text-center text-antrazit small-caps">Kontakt</h2>
+                    <a class="contact"> Telefon: +41 56 210 33 33</s>
+                    <a class="contact"> Mobile: +41 79 781 33 33</a>
+                </div>
+                <div class="col-lg-8 mx-auto col-md-8 offset-sm-3 text-center">
+                    <h2 class="m-0 text-center text-antrazit small-caps">Öffnungszeiten</h2>
+                    <p class="contact"> Montag bis Samstag </p>
+                    <p class="contact"> 08.00 - 20.00 Uhr </p>
                 </div>
             </div>
         </div>
+        <img id="map-img" src="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=800x320&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland"
+            alt="Google Map of Weite Gasse 37, Baden, Switzerland" class="img-fluid mx-auto d-block google-maps">
 
-        <div class="container-fluid no-p">
-            <div class="row justify-content-md-center">
-                <div class="col-12 col-sm-12 col-md-8 col-lg-8 portrait-img-column">
-                    <div class="map">
-                        <img src="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=800x550&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland"
-                            alt="Google Map of Weite Gasse 37, Baden, Switzerland" class="img-fluid">
-                    </div>
-                    <div class="button-wrapper">
-                        <a id="map-button" class="btn-map" href="https://www.google.com/maps/place/Weite+Gasse+37,+Baden,+Switzerland/" target="_">
-                            Routenplanner öffnen
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div class="m-0 text-center text-black">
+            <a id="map-button" class="btn-map" href="https://www.google.com/maps/place/Weite+Gasse+37,+Baden,+Switzerland/" target="_">
+                Routenplanner öffnen
+            </a>
         </div>
     </section>
 
+
+
+    <div class="BeamMeUp-wrapper position-fixed">
+        <div id="BeamMeUp-button" class="BeamMeUp-button text-center">
+            <a href="#page-top" class="js-scroll-trigger text-white align-middle h3">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="py-2 bg-white">
@@ -373,6 +355,22 @@
         $(document).ready(function() {
             var currentYear = (new Date()).getFullYear();
             $("#copyright").html("Copyright &copy; Dentisana " + currentYear);
+
+            CheckBeamMeUpButton($('#logo').offset().top, $(window).scrollTop());
+
+            $(window).scroll(function() {
+                var elementTop = $('#logo').offset().top;
+                CheckBeamMeUpButton(elementTop, $(window).scrollTop());
+            });
+
+            function CheckBeamMeUpButton(elementTop, scrollobject) {
+                var beamMeUpButton = $("#BeamMeUp-button");
+                if (elementTop - scrollobject <= 106) {
+                    beamMeUpButton.show(520);
+                } else {
+                    beamMeUpButton.hide(520);
+                }
+            }
         });
     </script>
 
