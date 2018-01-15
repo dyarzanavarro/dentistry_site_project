@@ -318,8 +318,13 @@
                 </div>
             </div>
         </div>
-        <img id="map-img" src="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=800x320&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland"
-            alt="Google Map of Weite Gasse 37, Baden, Switzerland" class="img-fluid mx-auto d-block google-maps">
+        <picture>
+            <source media="(min-width: 768px)" srcset="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=800x360&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland">
+            <source media="(min-width: 576px)" srcset="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=586x320&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland">
+            <source media="(min-width: 360px)" srcset="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=370x320&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland">
+            <img id="map-img" src="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=360x320&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland"
+                alt="Google Map of Weite Gasse 37, Baden, Switzerland" class="img-fluid mx-auto d-block google-maps" />
+        </picture>
 
         <div class="m-0 text-center text-black">
             <a id="map-button" class="btn-map" href="https://www.google.com/maps/place/Weite+Gasse+37,+Baden,+Switzerland/" target="_">
