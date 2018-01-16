@@ -42,13 +42,11 @@
 
     <!-- Portrait & Logo -->
     <section class="section-portrait">
-        <picture>
-            <source media="(min-width: 992px)" srcset="imgs/profile_lg.jpg">
-            <source media="(min-width: 768px)" srcset="imgs/profile_md.jpg">
-            <source media="(min-width: 576px)" srcset="imgs/profile_sm.jpg">
-            <source media="(min-width: 360px)" srcset="imgs/profile_xs.jpg">
-            <img src="imgs/profile_sm.jpg" alt="portrait" class="img-fluid mx-auto d-block portrait portrait-row" />
-        </picture>
+        <div class="container-fluid" >
+            <div class="row">
+                <img style="height: 50%; width: 100%"src="imgs/profile_sm.jpg" class="img-responsive">
+            </div>
+        </div>
 
         <div class="logo" id="logo">
             <img src="imgs/dentisana%20logo-01.png" class="img-fluid mx-auto d-block" alt="logo" />
@@ -320,7 +318,8 @@
         </div>
 
 
-        <div class="container" style=" height: 400px ; -webkit-filter: grayscale(100%);filter: grayscale(100%); text-align: center ;">
+        <div id="map" style=" height: 400px ; -webkit-filter: grayscale(100%);filter: grayscale(100%); text-align: center ;">
+
             <iframe
                     style="text-align: center"
                     height="100%"
@@ -328,7 +327,9 @@
                     frameborder="0" style="border:0"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.8622915030987!2d8.30557281583691!3d47.473112905182575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47906cc62ce71957%3A0xb9857b0144f23ba9!2sWeite+G.+37%2C+5400+Baden!5e0!3m2!1sde!2sch!4v1516086419321" allowfullscreen>
 
+
             </iframe>
+
         </div>
 
         <div class="m-0 text-center text-black">
@@ -366,6 +367,7 @@
     <!-- Custom JavaScript  -->
     <script src="js/scrolling-nav.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/map.js"></script>
 
     <script>
         $(document).ready(function() {
