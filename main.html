@@ -42,13 +42,8 @@
 
     <!-- Portrait & Logo -->
     <section class="section-portrait">
-        <picture>
-            <source media="(min-width: 992px)" srcset="imgs/profile_lg.jpg">
-            <source media="(min-width: 768px)" srcset="imgs/profile_md.jpg">
-            <source media="(min-width: 576px)" srcset="imgs/profile_sm.jpg">
-            <source media="(min-width: 360px)" srcset="imgs/profile_xs.jpg">
-            <img src="imgs/profile_sm.jpg" alt="portrait" class="img-fluid mx-auto d-block portrait portrait-row" />
-        </picture>
+        <div class="jumbotron">
+        </div>
 
         <div class="logo" id="logo">
             <img src="imgs/dentisana%20logo-01.png" class="img-fluid mx-auto d-block" alt="logo" />
@@ -80,15 +75,15 @@
                         <h2 class="m-0 py-5 text-center text-antrazit small-caps"> Unser Team</h2>
                     </div>
                     <div class="row team-row">
-                        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto">
-                            <img class="rounded-circle team-member-mugshot" src="http://placehold.it/700x400" alt="Team member">
+                        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto" style="text-align:center">
+                            <img class="rounded-circle team-member-mugshot" src="imgs/child.jpg" alt="Team member" >
                             <p class="card-text text-center">Dr.med. Frankenstein</p>
                         </div>
-                        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto">
+                        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto" style="text-align:center">
                             <img class="rounded-circle team-member-mugshot" src="http://placehold.it/700x400" alt="Team member">
                             <p class="card-text text-center">Dr.med. Muster</p>
                         </div>
-                        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto">
+                        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mx-auto" style="text-align:center">
                             <img class="rounded-circle team-member-mugshot" src="http://placehold.it/700x400" alt="Team member">
                             <p class="card-text text-center">Freddy Krueger</p>
                         </div>
@@ -109,7 +104,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="card h-95 pointer" data-toggle="modal" data-target="#pop-up-1">
-                                <img class="card-img-top" src="http://placehold.it/700x400" alt="">
+                                <img class="card-img-top" src="imgs/child2.jpg" alt="">
                                 <div class="card-body bg-light">
                                     <div class="circle-wrapper">
                                         <div class="full-circle d-table-cell">
@@ -123,7 +118,7 @@
 
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="card h-95 pointer" data-toggle="modal" data-target="#pop-up-2">
-                                <img class="card-img-top" src="http://placehold.it/700x400" alt="">
+                                <img class="card-img-top" src="imgs/child5.jpg"  alt="">
                                 <div class="card-body bg-light">
                                     <div class="circle-wrapper">
                                         <div class="full-circle">
@@ -136,7 +131,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="card h-95 pointer" data-toggle="modal" data-target="#pop-up-3">
-                                <img class="card-img-top" src="http://placehold.it/700x400" alt="">
+                                <img class="card-img-top" src="imgs/child3.jpg" alt="">
                                 <div class="card-body bg-light">
                                     <div class="circle-wrapper">
                                         <div class="full-circle">
@@ -150,7 +145,7 @@
 
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="card h-95 pointer" data-toggle="modal" data-target="#pop-up-4">
-                                <img class="card-img-top" src="http://placehold.it/700x400" alt="">
+                                <img class="card-img-top" src="imgs/child4.jpg" alt="">
                                 <div class="card-body bg-light">
                                     <div class="circle-wrapper">
                                         <div class="full-circle">
@@ -178,7 +173,7 @@
                         <div class="container">
                             <h5 class="modal-title m-0 py-3 text-center text-gray small-caps" id="exampleModalLongTitle">Pop up 1</h5>
                             <div class="row">
-                                <img class="card-img-top" src="http://placehold.it/400x250" alt="">
+                                <img class="card-img-top" src="imgs/child2.jpg" alt="">
                             </div>
                             <div class="row">
                                 <div class="col-6 modal-col-right">
@@ -211,6 +206,9 @@
                             <h5 class="modal-title m-0 py-3 text-center text-gray small-caps" id="exampleModalLongTitle2">Pop up 2</h5>
                             <div class="row">
                                 <img class="card-img-top" src="http://placehold.it/400x250" alt="">
+                            </div>
+                            <div >
+
                             </div>
                             <div class="row">
                                 <div class="col-6 modal-col-right">
@@ -301,15 +299,16 @@
         <div class="container-fluid">
             <div class="row bg-light contact-row">
                 <div class="col-lg-8 mx-auto col-md-8 offset-sm-3 text-center">
+                    <h2 class="m-0 text-center text-antrazit small-caps">Kontakt</h2>
+                    <a href="tel:+415652103333" class="contact">Telefon: +41 56 210 33 33</a>
+                    <a href="tel:+41797813333" class="contact">Mobile: +41 79 781 33 33</a>
+                    <a href="mailto:info@dentisana.ch" class="contact">info@dentisana.ch</a>
+
+                </div>
+                <div class="col-lg-8 mx-auto col-md-8 offset-sm-3 text-center">
                     <h2 class="m-0 text-center text-antrazit small-caps">Standort</h2>
                     <p class="contact">Weite Gasse 37</p>
                     <p class="contact">CH-5400 Baden</p>
-                </div>
-                <div class="col-lg-8 mx-auto col-md-8 offset-sm-3 text-center">
-                    <h2 class="m-0 text-center text-antrazit small-caps">Kontakt</h2>
-                    <a href="tel:+415652103333" class="contact">Telefon: +41 56 210 33 33</s>
-                    <a href="tel:+41797813333" class="contact">Mobile: +41 79 781 33 33</a>
-                    <a href="mailto:info@dentisana.ch" class="contact">info@dentisana.ch</a>
                 </div>
                 <div class="col-lg-8 mx-auto col-md-8 offset-sm-3 text-center">
                     <h2 class="m-0 text-center text-antrazit small-caps">Öffnungszeiten</h2>
@@ -318,20 +317,23 @@
                 </div>
             </div>
         </div>
-        <picture>
-            <source media="(min-width: 768px)" srcset="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=800x360&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland">
-            <source media="(min-width: 576px)" srcset="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=586x320&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland">
-            <source media="(min-width: 360px)" srcset="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=390x320&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland">
-            <img id="map-img" src="https://maps.googleapis.com/maps/api/staticmap?center=Weite+Gasse+37,+Baden,+Switzerland&zoom=17&scale=3&size=360x320&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CWeite+Gasse+37,+Baden,+Switzerland"
-                alt="Google Map of Weite Gasse 37, Baden, Switzerland" class="img-fluid mx-auto d-block google-maps" />
-        </picture>
 
-        <div class="m-0 text-center text-black">
-            <a id="map-button" class="btn-map" href="https://www.google.com/maps/place/Weite+Gasse+37,+Baden,+Switzerland/" target="_">
-                Routenplanner öffnen
-            </a>
+
+        <div id="map" style=" height: 400px ; -webkit-filter: grayscale(100%);filter: grayscale(100%); text-align: center ;">
+
+            <iframe
+                    style="text-align: center"
+                    height="100%"
+                    width="100%"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.8622915030987!2d8.30557281583691!3d47.473112905182575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47906cc62ce71957%3A0xb9857b0144f23ba9!2sWeite+G.+37%2C+5400+Baden!5e0!3m2!1sde!2sch!4v1516086419321" allowfullscreen>
+
+
+            </iframe>
+
         </div>
-    </section>
+
+           </section>
 
 
 

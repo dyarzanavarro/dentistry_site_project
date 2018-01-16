@@ -1,6 +1,10 @@
         /*
     General
 */
+
+
+
+
         
         body {
             padding-top: 70px;
@@ -103,16 +107,22 @@ header
         /*
 portrait
 */
-        
+        .jumbotron {
+            background-image: url("../imgs/profile.jpg");
+            background-size: cover;
+            width: 100vw;
+            height: 65vh;
+            display: table-cell;
+            vertical-align: middle;
+            background-position: center center;
+            background-repeat:no-repeat;
+
+        }
         .portrait-row {
             border-bottom: 20px solid rgba(255, 0, 0, 0.7);
         }
         
-        section.section-portrait img.portrait {
-            max-width: 1000px;
-            width: 100%;
-        }
-        
+
         section.section-portrait div.logo img {
             max-width: 500px;
             width: 100%;
@@ -136,11 +146,13 @@ portrait
         
         .h-team {
             margin: 35px 0px 40px 0px;
+
         }
         
         .team-member-mugshot {
             width: 90px;
             height: 90px;
+
         }
         
         .team-row p {
@@ -152,11 +164,17 @@ services
         
         .card {
             margin-top: 15px;
-            margin-bottom: 15px;
+            margin-bottom: 30px;
         }
         
         .card-img-top {
             min-height: 115px;
+            object-fit: cover;
+            width: 100%;
+            height:100%;
+
+
+
         }
         
         .card-body {
@@ -195,6 +213,13 @@ Modals
         
         .modal-text {
             font-size: 0.9em;
+            
+        }
+
+        .row2{
+            background-color: red;
+
+
         }
         
         .modal-col-left {
@@ -206,7 +231,7 @@ Modals
         }
         
         .modal-body-custom {
-            padding: 15px 15px 0px 15px;
+            padding: 15px 15px 15px 15px;
         }
         /*
 Contact & Map  
@@ -298,9 +323,7 @@ BeamMeUp button
         /* Extra small devices (portrait phones, less than 576px) */
         
         @media (max-width: 575.99px) {
-            section.section-portrait img.portrait {
-                min-height: 260px;
-            }
+
             section.section-portrait div.logo img {
                 margin-top: 75px;
                 margin-bottom: 45px;
@@ -333,7 +356,6 @@ BeamMeUp button
         
         @media (min-width: 1200px) {
             nav {
-                max-width: 1050px;
                 margin-left: auto;
                 margin-right: auto;
             }
