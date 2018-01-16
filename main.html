@@ -43,13 +43,18 @@
 
     <!-- Portrait & Logo -->
     <section class="section-portrait">
-        <div class="jumbotron portrait-row">
+        <div class="jumbotron portrait-row"></div>
 
+        <div id="chevron-down" class="text-center">
+            <a href="#about" class="js-scroll-trigger">
+                <i class="fa fa-chevron-down"></i>
+            </a>
         </div>
 
         <div class="logo" id="logo">
             <img src="imgs/dentisana%20logo-01.png" class="img-fluid mx-auto d-block" alt="logo" />
         </div>
+
     </section>
 
     <!-- About -->
@@ -373,6 +378,7 @@
 
             function CheckBeamMeUpButton(elementTop, scrollobject) {
                 var beamMeUpButton = $("#BeamMeUp-button");
+
                 if (elementTop - scrollobject <= 106) {
                     beamMeUpButton.show(520);
                 } else {
