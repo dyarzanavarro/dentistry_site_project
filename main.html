@@ -16,7 +16,7 @@
 
 <body id="page-top">
 
-    <div class="contact-button-wrapper position-fixed">
+    <div id="contact-button-wrapper" class="contact-button-wrapper position-fixed">
         <a href="tel:+41 565 210 33 33" class="text-white align-middle h3 contact-button text-center">
             <i class="fa fa-phone" aria-hidden="true"></i>
         </a>
@@ -370,10 +370,14 @@
             $("#copyright").html("Copyright &copy; Dentisana " + currentYear);
 
             CheckBeamMeUpButton($('#logo').offset().top, $(window).scrollTop());
+            CheckContactButtons($('#contact').offset().top, $(window).scrollTop());
 
             $(window).scroll(function() {
                 var elementTop = $('#logo').offset().top;
+                var contactSection = $("#contact").offset().top;
+
                 CheckBeamMeUpButton(elementTop, $(window).scrollTop());
+                CheckContactButtons(contactSection, $(window).scrollTop());
             });
 
             function CheckBeamMeUpButton(elementTop, scrollobject) {
@@ -383,6 +387,15 @@
                     beamMeUpButton.show(520);
                 } else {
                     beamMeUpButton.hide(520);
+                }
+            }
+
+            function CheckContactButtons(contactSection, scrollobject) {
+                var contactButton = $('#contact-button-wrapper');
+                if (contactSection - scrollobject <= 390) {
+                    contactButton.hide(520);
+                } else {
+                    contactButton.show(520);
                 }
             }
         });
