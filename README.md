@@ -13,4 +13,3 @@ Was never released, a customer was happy with static site.
 ![](dentisana2.gif)
 
 
-#### Good overview on Desktop-Version:
